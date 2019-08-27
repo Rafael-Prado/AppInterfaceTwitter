@@ -15,4 +15,55 @@ header#man-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 46px;
+    background: #fff;
+}
+header#man-header nav ul {
+    display: flex;
+    list-style: none;
+}
+header#man-header nav ul li{
+    display: flex;
+    align-items: center;
+
+    font-size: 13px;
+    color: #667580;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+header#man-header nav ul li :first-child{
+    margin: 0;
+}
+
+header#man-header nav ul li img{
+    margin-right: 7px;
+    height: 15px;
+   width: 15px;
+}
+header#man-header div.side {
+    display: flex;
+}
+
+header#man-header div.side img{
+   height: 34px;
+   width: 34px;
+   border-radius: 50%;
+   margin:  0 15px;
+}
+
+header#man-header div.side button{
+    height: 34px;
+    background: #3bb9e3;
+
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+
+    width: 90px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+    border-radius: 16px;
 }
